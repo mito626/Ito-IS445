@@ -14,7 +14,6 @@
         Output = "<p style=color:green>"
 
         UserInput = Convert.ToInt64(InputNumber().Text)
-
         If UserInput >= 2 And UserInput <= 10 Then
             Do While UserInput > RowCounter
                 StarCounter = RowCounter
@@ -29,5 +28,6 @@
             StarOutput.Text = Output
 
         End If
+
     End Sub
 End Class

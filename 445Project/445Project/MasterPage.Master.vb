@@ -5,4 +5,7 @@
 
     End Sub
 
+    Protected Sub Menu1_MenuItemClick(sender As Object, e As MenuEventArgs) Handles Menu1.MenuItemClick
+
+    End Sub
 End Class

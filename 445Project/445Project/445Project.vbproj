@@ -86,11 +86,10 @@
     <Content Include="Demos\clearButton.gif" />
     <Content Include="CSS\StyleSheet.css" />
     <Content Include="Demos\ClientSide\ClientSide.css" />
-    <Content Include="Demos\Layout\AbsoluteLayout.css" />
-    <Content Include="Demos\Layout\FloatLayout.css" />
-    <Content Include="Demos\Layout\RelativeLayout.css" />
+    <Content Include="Demos\Layout\LayoutCSS\AbsoluteLayout.css" />
+    <Content Include="Demos\Layout\LayoutCSS\FloatLayout.css" />
+    <Content Include="Demos\Layout\LayoutCSS\RelativeLayout.css" />
     <Content Include="Demos\submitbutton.gif" />
-    <Content Include="CSS\WebFormSS.css" />
     <Content Include="JavaScript\JavaScript.css" />
     <Content Include="JavaScript\JavaScript.js" />
     <Content Include="Web.config" />

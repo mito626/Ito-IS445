@@ -1,15 +1,21 @@
-﻿body{
+﻿body
+{
     width: 900px;
     margin: auto;
-    height: auto;}
+    height: auto;
 
-div.TreeView {
+}
+
+div.TreeView 
+{
     width:175px;
     margin: auto;
     float: left;
+    background-color:lightblue;
 }
 
-div.Content {
+div.Content 
+{
     width:700px;
     float: right;
 }
@@ -19,29 +25,30 @@ h1
     text-align: center;
 }
 
-h2 {
+h2 
+{
 	text-align: center;
 }
 
 nav
 {
+    padding: 15px;
+    background-color:lightblue;
+}
+
+div.nav li
+{
+    text-align:center;
     padding: 20px;
 }
 
-    nav li
-    {
-        padding: 20px;
-    }
-
 div.TreeView li
 {
-    padding: 30px;
+    padding: 20px;
 }
 
 #Menu1 li a.level1
 {
-    margin-right: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
