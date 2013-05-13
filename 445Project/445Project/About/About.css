@@ -1,0 +1,41 @@
+﻿/*Matt Ito  IS445  Homework 3*/
+
+/*green horizontal bar*/
+hr
+{
+    background-color: #00FF00;
+    height: 8px;
+}
+
+/*blue text for header 2*/
+h2
+{
+    color: blue;
+}
+
+/*purple color for header 3*/
+h3
+{
+    color: purple;
+}
+
+/*padding around fieldsets*/
+form fieldset
+{
+    padding: 10px;
+}
+
+/*move image to right and adjust space*/
+img.sloth
+{
+    float: right;
+    width: 175px;
+    height: 225px;
+}
+
+/*body text width*/
+article
+{
+    text-align: left;
+    width: 380px;
+}

@@ -1,0 +1,45 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPage.master.vb" Inherits="_445Project.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+        <title></title>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <link href="CSS/StyleSheet.css" rel="stylesheet" />
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+<body>       
+    <form id="form1" runat="server">
+    <header>
+        <h1>
+                Matt Ito's ASP.NET Web Site in Windows Azure
+        </h1>
+    </header>
+    <nav>
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False">
+            <LevelSubMenuStyles>
+                <asp:SubMenuStyle BackColor="LightGreen" Font-Underline="False" />
+                <asp:SubMenuStyle BackColor="LightGreen" Font-Underline="False" />
+                <asp:SubMenuStyle BackColor="LightGreen" Font-Underline="False" />
+            </LevelSubMenuStyles>
+        </asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+    </nav>        
+        <br />   
+    <div class="TreeView">
+            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource">
+            </asp:TreeView>
+            <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" ShowStartingNode="False" />
+    </div>
+    <div class="Content">
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+        </asp:SiteMapPath>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">         
+        
+            </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/" title="Home" description="Home">
+        <siteMapNode url="~/Default.aspx" title="Home" description="Go to My Homepage" />
+        <siteMapNode url="~/Demos/Demo.aspx" title="Form/Layout Demos" description="Demos of Web Form and Layout">
+            <siteMapNode url="~/Demos/WebForm.aspx" title="Web Form" description="Demo of Web Form Fields" />
+            <siteMapNode url="~/Demos/Layout/Layout.aspx" title="Layout Demo" description="Demo of Different Layouts">
+                <siteMapNode url="~/Demos/Layout/AbsoluteLayout.aspx" title="Absolute Layout" description="Demo of Absolute Layout" />
+                <siteMapNode url="~/Demos/Layout/RelativeLayout.aspx" title="Static Layout" description="Demo of Static Layout" />
+                <siteMapNode url="~/Demos/Layout/FloatLayout.aspx" title="Float Layout" description="Demo of Float Layout" />
+            </siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="~/Demos/ClientSide/ClientSide.aspx" title="ClientSide Demos" description="Demo of ClientSide JavaScript Projects">
+            <siteMapNode url="~/Demos/ClientSide/NumberDivision.aspx" title="Calc Number" description="Demo of JavaScript Number Calculation" />
+            <siteMapNode url="~/Demos/ClientSide/NestedLoop.aspx" title="Nested Loop" description="Demo of JavaScript Nested Loop" />
+        </siteMapNode>
+        <siteMapNode url="~/Demos/ServerSide.aspx" title="ServerSide Demos" description="Demo of ServerSide Projects">
+            <siteMapNode url="~/Demos/ServerSide/NumberDivision.aspx" title="Calc Number" description="Demo of ASP.NET Number Calculation" />
+            <siteMapNode url="~/Demos/ServerSide/NestedLoop.aspx" title="Nested Loop" description="Demo of ASP.NET Nestd Loop" />
+        </siteMapNode>
+        <siteMapNode url="~/About/Default.aspx" title="About Myself" description="My Cover Letter">
+            <siteMapNode url="~/About/Resume.aspx" title="My Resume" description="My Detail Resume" />
+            <siteMapNode url="~/About/Contact.aspx" title="Contact Me" description="My Contact Information" />
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>

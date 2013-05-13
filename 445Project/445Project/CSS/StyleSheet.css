@@ -1,0 +1,35 @@
+﻿body{
+    width: 900px;
+    margin: auto;
+    height: auto;}
+
+div.TreeView {
+    width:175px;
+    margin: auto;
+    float: left;
+}
+
+div.Content {
+    width:700px;
+    float: right;
+}
+
+h1
+{
+    text-align: left;
+}
+
+h2 {
+	text-align: left;
+}
+
+nav
+{
+    background-color: lightgreen;
+}
+
+#Menu1 li a.level1
+{
+    margin-right: 30px;
+}
+

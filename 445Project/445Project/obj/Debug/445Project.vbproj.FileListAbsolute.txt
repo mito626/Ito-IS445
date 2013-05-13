@@ -1,0 +1,8 @@
+C:\Users\MattMac\IS445\hw7\445Project\445Project\bin\445Project.dll
+C:\Users\MattMac\IS445\hw7\445Project\445Project\bin\445Project.pdb
+C:\Users\MattMac\IS445\hw7\445Project\445Project\bin\445Project.xml
+C:\Users\MattMac\IS445\hw7\445Project\445Project\obj\Debug\_445Project.Resources.resources
+C:\Users\MattMac\IS445\hw7\445Project\445Project\obj\Debug\445Project.vbproj.GenerateResource.Cache
+C:\Users\MattMac\IS445\hw7\445Project\445Project\obj\Debug\445Project.dll
+C:\Users\MattMac\IS445\hw7\445Project\445Project\obj\Debug\445Project.xml
+C:\Users\MattMac\IS445\hw7\445Project\445Project\obj\Debug\445Project.pdb
