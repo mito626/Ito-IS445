@@ -2,5 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <<h1>Please test these client side demos</h1>
+    <<h1>Client Side Demos</h1>
+    <h2>Please click a link to view a client side demo</h2>
 </asp:Content>

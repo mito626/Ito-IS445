@@ -28,6 +28,7 @@
     <div class="TreeView">
             <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource">
             </asp:TreeView>
+        <br />
             <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" ShowStartingNode="False" />
     </div>
     <div class="Content">

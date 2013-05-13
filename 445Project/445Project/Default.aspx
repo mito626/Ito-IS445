@@ -3,15 +3,8 @@
   
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-        <h1 class="auto-style1">Default Home Page</h1>
-<h3>Description of Web Site</h3>
+    <h1 class="auto-style1">My Home Page</h1>
+    <h2>Welcome to my website!</h2>
+    <h3>On this website you will find different demos written in HTML, CSS, JavaScript, and ASP.Net.&nbsp; There are demos showing different layouts, webforms, and calculations.&nbsp; Please click on any link on the top or left side of the page to begin.</h3>
 <br />
-<h3>This is a description of my websiteThis is a description of myTadasasdadadadhis is a </h3>
-<h3>description of my website</h3>
-<h3>This is a description of my&nbsp; </h3>
-<h3>websiteasdasdasdasdasdasdasdasThis is a description of my website</h3>
-<h3>This is a description of my websiteasdasdasdasdasdasdasdas</h3>
-<br />
-<p>
-    Write stuff here</p>
-    </asp:Content>
+</asp:Content>

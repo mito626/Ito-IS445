@@ -85,7 +85,6 @@
     <Content Include="About\Sloth.jpg" />
     <Content Include="Demos\clearButton.gif" />
     <Content Include="CSS\StyleSheet.css" />
-    <Content Include="Demos\ClientSide\ClientSide.css" />
     <Content Include="Demos\Layout\LayoutCSS\AbsoluteLayout.css" />
     <Content Include="Demos\Layout\LayoutCSS\FloatLayout.css" />
     <Content Include="Demos\Layout\LayoutCSS\RelativeLayout.css" />

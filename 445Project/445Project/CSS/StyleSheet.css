@@ -20,6 +20,11 @@ div.Content
     float: right;
 }
 
+    div.Content li
+    {
+        padding: 15px;
+    }
+
 h1
 {
     text-align: center;

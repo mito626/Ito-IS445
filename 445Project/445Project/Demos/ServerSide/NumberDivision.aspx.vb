@@ -7,9 +7,10 @@
 
     Protected Sub DivisionCalculate_Click(sender As Object, e As EventArgs) Handles DivisionCalculate.Click
         Dim NumberInput As Integer
-        Dim Millionth As Decimal
         Dim MillionthCounter As Integer
+        Dim Millionth As Decimal
         MillionthCounter = 0
+
         NumberInput = Convert.ToInt64(InputNumber().Text)
 
         If NumberInput >= 2 And NumberInput <= 10 Then

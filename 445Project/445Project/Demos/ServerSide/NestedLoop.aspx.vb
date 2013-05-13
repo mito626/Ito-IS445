@@ -11,23 +11,23 @@
         Dim StarCounter As Integer
         Dim Output As String
         RowCounter = 0
+
         Output = "<p style=color:green>"
 
         UserInput = Convert.ToInt64(InputNumber().Text)
         If UserInput >= 2 And UserInput <= 10 Then
-            Do While UserInput > RowCounter
+            Do While RowCounter < UserInput
                 StarCounter = RowCounter
                 Do While StarCounter >= 0
                     Output = Output + "*"
                     StarCounter = StarCounter - 1
                 Loop
-                Output += "<br />"
                 RowCounter = RowCounter + 1
+                Output += "<br />"
             Loop
             Output = Output + "</p>"
             StarOutput.Text = Output
 
         End If
-
     End Sub
 End Class
