@@ -16,7 +16,7 @@
         }
 
         var stars = userNumber;
-        document.write("<p>");
+        document.write("<p style=color:green>");
         var row = userNumber;
 
         /*display stars in triangle*/
@@ -35,7 +35,7 @@
         /*number is not within range */
     else {
         document.write("<span>");
-        document.writeln("<h2>Your input is " + userNumber
+        document.writeln("<h3 style=color:red>Your input is " + userNumber
             + ". The valid input number is between 2 and 10. Please reload this page and try again.</h2>");
         document.write("</span>");
     }
@@ -59,7 +59,7 @@ function NumberDivision() {
         }
 
         /*output how many times till one millionth*/
-        document.write("<h2>The number of times to divide the number " + userNumber
+        document.write("<h2 style=color:green>The number of times to divide the number " + userNumber
             + " by 2 to get a value less than one millionth is " + counter + " </h2>");
         document.write("<br/>");
     }
@@ -67,7 +67,7 @@ function NumberDivision() {
         /*number is not within range */
     else {
         document.write("<span>");
-        document.writeln("<h2>Your input is " + userNumber
+        document.writeln("<h3 style=color:red>Your input is " + userNumber
             + ". The valid input number is between 2 and 10. Please reload this page and try again.</h2>");
         document.write("</span>");
     }

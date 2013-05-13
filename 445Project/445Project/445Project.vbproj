@@ -87,8 +87,11 @@
     <Content Include="CSS\StyleSheet.css" />
     <Content Include="Demos\ClientSide\ClientSide.css" />
     <Content Include="Demos\Layout\AbsoluteLayout.css" />
+    <Content Include="Demos\Layout\FloatLayout.css" />
+    <Content Include="Demos\Layout\RelativeLayout.css" />
     <Content Include="Demos\submitbutton.gif" />
     <Content Include="CSS\WebFormSS.css" />
+    <Content Include="JavaScript\JavaScript.css" />
     <Content Include="JavaScript\JavaScript.js" />
     <Content Include="Web.config" />
     <Content Include="Default.aspx" />
@@ -100,7 +103,7 @@
     <Content Include="Demos\ClientSide\ClientSide.aspx" />
     <Content Include="Demos\ClientSide\NumberDivision.aspx" />
     <Content Include="Demos\ClientSide\NestedLoop.aspx" />
-    <Content Include="Demos\ServerSide\ServerSide.aspx" />
+    <Content Include="Demos\ServerSide.aspx" />
     <Content Include="Demos\ServerSide\NumberDivision.aspx" />
     <Content Include="Demos\ServerSide\NestedLoop.aspx" />
     <Content Include="About\Default.aspx" />
@@ -198,10 +201,10 @@
       <DependentUpon>NestedLoop.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Demos\ServerSide\ServerSide.aspx.designer.vb">
+    <Compile Include="Demos\ServerSide.aspx.designer.vb">
       <DependentUpon>ServerSide.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Demos\ServerSide\ServerSide.aspx.vb">
+    <Compile Include="Demos\ServerSide.aspx.vb">
       <DependentUpon>ServerSide.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>

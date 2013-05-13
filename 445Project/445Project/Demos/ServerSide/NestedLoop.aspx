@@ -8,11 +8,11 @@
         <asp:TextBox ID="InputNumber" runat="server"></asp:TextBox>
 
     <br />
-    <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToValidate="InputNumber" Display="Dynamic" ErrorMessage="The input is not a valid integer" Operator="DataTypeCheck" Type="Integer"></asp:CompareValidator>
-&nbsp;<asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="InputNumber" Display="Dynamic" ErrorMessage="Please enter a value between 2 and 10" MaximumValue="10" MinimumValue="2" Type="Integer"></asp:RangeValidator>
+<asp:CompareValidator ID="CompareValidator1" runat="server" ControlToValidate="InputNumber" Display="Dynamic" ErrorMessage="The input is not a valid integer" Operator="DataTypeCheck" Type="Integer" ForeColor="#CC0000"></asp:CompareValidator>
+&nbsp;<asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="InputNumber" Display="Dynamic" ErrorMessage="Please enter a value between 2 and 10" MaximumValue="10" MinimumValue="2" Type="Integer" ForeColor="#CC0000"></asp:RangeValidator>
 
     <br />
     <asp:Button ID="DivisionCalculate" runat="server" Text="Print Stars" />
     <br />
-    <asp:Label ID="StarOutput" runat="server"></asp:Label>
+    <asp:Label ID="StarOutput" runat="server" ForeColor="#33CC33"></asp:Label>
 </asp:Content>

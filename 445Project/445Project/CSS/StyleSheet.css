@@ -16,20 +16,32 @@ div.Content {
 
 h1
 {
-    text-align: left;
+    text-align: center;
 }
 
 h2 {
-	text-align: left;
+	text-align: center;
 }
 
 nav
 {
-    background-color: lightgreen;
+    padding: 20px;
+}
+
+    nav li
+    {
+        padding: 20px;
+    }
+
+div.TreeView li
+{
+    padding: 30px;
 }
 
 #Menu1 li a.level1
 {
     margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 

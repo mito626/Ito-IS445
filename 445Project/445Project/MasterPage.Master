@@ -19,11 +19,8 @@
     </header>
     <nav>
         <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False">
-            <LevelSubMenuStyles>
-                <asp:SubMenuStyle BackColor="LightGreen" Font-Underline="False" />
-                <asp:SubMenuStyle BackColor="LightGreen" Font-Underline="False" />
-                <asp:SubMenuStyle BackColor="LightGreen" Font-Underline="False" />
-            </LevelSubMenuStyles>
+            <DynamicHoverStyle BackColor="OrangeRed" />
+            <DynamicMenuItemStyle BackColor="LightGreen" />
         </asp:Menu>
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
     </nav>        
